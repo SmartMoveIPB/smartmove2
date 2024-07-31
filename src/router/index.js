@@ -22,6 +22,7 @@ import RegisterPages from "@/pages/RegisterPages.vue";
 import ProfilePage from "@/pages/ProfilePage.vue";
 import ChangeProfilePage from "@/pages/ChangeProfilePage.vue";
 import DetailBusPage from "@/pages/DetailBusPage.vue";
+import DetailKendaraanPage from "@/pages/DetailKendaraanPage.vue";
 
 const router = createRouter({
   history: createWebHistory(process.env.BASE_URL),
@@ -33,7 +34,8 @@ const router = createRouter({
     {path: "/news", component: NewsPage},
     {path: '/profile', component: ProfilePage},
     {path: '/changeProfile', component: ChangeProfilePage},
-    {path: '/detailBus', component: DetailBusPage}
+    {path: '/detailBus', component: DetailBusPage},
+    {path: '/Detailkendaraan', component: DetailKendaraanPage}
   ]
 });
 

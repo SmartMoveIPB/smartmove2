@@ -1,7 +1,8 @@
 <template>
     <v-main class="pa-5 main">
-        <v-container>
-            <div class="back-kendaraan d-flex cursor-pointer" onclick="location.href='/'">
+        
+        <v-container style="background-color: white; box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);" class="rounded-xl pa-10 ">
+            <div class="back-kendaraan d-flex cursor-pointer" onclick="location.href='/detailK'">
                 <v-icon icon="mdi-arrow-left" style="margin-top: 2px;"/> 
                 <h3 >Back</h3>
             </div>
@@ -77,12 +78,14 @@
 </template>
 
 <style>
-    .back-kendaraan{
+    /* .back-kendaraan{
         
-    }
+    } */
     .main{
         min-height: 100vh;
         width: 100%;
+        background-image: url(@/assets/background.png); 
+        background-size: cover;
     }
 
     .Bus{
@@ -91,8 +94,16 @@
 </style>
 
 <script>
+    // import BG from '@/assets/background.png'
     export default {
         name: 'DetailBusComp',
+        // Bckg : {
+        //     backgroundImage : `url(${BG})`,
+        //     backgroundSize : 'cover',
+        //     backgroundPosition : 'center',
+        //     minHeight : '100vh',
+        //     width : '100%'
+        // }
     }
 </script>
 

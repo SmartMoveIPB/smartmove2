@@ -27,11 +27,11 @@
         >
           <v-list-item class="items2">
             <div class="d-flex justify-center mb-8 mt-4">
-              <img src="@/assets/logo-Smart-move.png" style="width: 70px;" alt="logo">
+              <img src="@/assets/logo-Smart-move.png" style="width: 70px;" alt="logo" onclick="location.href='/'">
             </div>
             
-            <button class=" button-item " >
-              <v-icon icon="mdi-bus" onclick="location.href='detailBus'" style="font-size: 25px;"></v-icon>
+            <button class=" button-item " onclick="location.href='/detailKendaraan'" >
+              <v-icon icon="mdi-bus" style="font-size: 25px;"></v-icon>
               
               <h3 class="font-weight-regular" style="font-size: 15px;">Detail<br>Transportasi</h3>
             </button>
