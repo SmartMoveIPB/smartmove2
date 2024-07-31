@@ -1,9 +1,9 @@
 <template>
-    <v-main class="pa-10 main">
+    <v-main class="pa-5 main">
         <v-container>
             <div class="back-kendaraan d-flex cursor-pointer" onclick="location.href='/'">
                 <v-icon icon="mdi-arrow-left" style="margin-top: 2px;"/> 
-                <h3>Back</h3>
+                <h3 >Back</h3>
             </div>
             
             <!-- Isi dari Bus yakni image dan deskripsi -->
@@ -34,7 +34,11 @@
                                 </tr>
                         </table>
                     </div>
-                    <v-btn>Laporkan</v-btn>
+                    <div class="d-flex ">
+                        <v-btn style="background-color: #414E6E; color: white;" class="mr-5">Laporkan</v-btn>
+                        <v-btn style="background-color: #414E6E; color: white;">Komentar</v-btn>  
+                    </div>
+                    
                 </div>
             </div>
             <div>

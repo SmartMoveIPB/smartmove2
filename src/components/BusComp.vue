@@ -18,7 +18,6 @@
             <section class="border">
                 <v-list :style="listStyle" :items="items" class="pa-2" lines="three" items-props>
                 </v-list>
-                
             </section>
         </v-contaienr>
     </v-main>
