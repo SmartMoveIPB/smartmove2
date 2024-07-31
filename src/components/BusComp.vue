@@ -1,6 +1,6 @@
 <template>
     <v-main class="pa-10 ">
-        <v-contaienr >
+        <v-container >
             <!-- Foto -->
             <v-card :style="cardStyle" style="opacity: 0.5;"></v-card>
             
@@ -16,227 +16,216 @@
             
             <!-- Isi bus -->
             <section class="pa-10" style="width: 100%; min-height: 100vh;">
-            <div class="w-auto  pa-5 d-flex justify-space-between" style="height: 80px;">
-                <div class="d-flex ml-6">
-                    <h3>Detail Kendaraan</h3   >
-                    <v-icon icon="mdi-arrow-right mx-3" style="margin-top: 2px;" ></v-icon>
-                </div>
-               
-                <div class="show-all mr-6">
-                    <button>
-                        <h3>Show All</h3   >
-                    </button>
-                </div>
-            </div>
-
-            <v-list class="List pa-2"  lines="three" items-props >
-                <v-list-item class="cursor-pointer" onclick="location.href='/detailBus'">
-                    <div class="d-flex">
-                        <v-avatar image="@/assets/transJakarta.jpg" size="70px" class="mr-5" />
-                        <div class="me-auto">
-                            <h3>TransJakarta Blok M - PGC</h3>
-                            <p>Transjakarta yang berjalur dari halte Blok M hingga halte terakhir PGC</p>
-                        </div>
-                        <v-rating
-
-                            size="30"
-                            v-model="rating"
-                            clearable
-                            ></v-rating>
-                    </div>
-                </v-list-item>
-                <v-divider></v-divider>
                 
-                <v-list-item class="cursor-pointer">
-                    <div class="d-flex">
-                        <v-avatar image="@/assets/transJakarta.jpg" size="70px" class="mr-5" />
-                        <div class="me-auto" onclick="location.href='/detailBus'">
-                            <h3>TransJawa Blok M - PGC</h3>
-                            <p>TransJawa yang berjalur dari halte Blok M hingga halte terakhir PGC</p>
+
+                <v-list class="List pa-2"  lines="three" items-props >
+                    <v-list-item class="cursor-pointer" onclick="location.href='/detailBus'">
+                        <div class="d-flex">
+                            <v-avatar image="@/assets/transJakarta.jpg" size="70px" class="mr-5" />
+                            <div class="me-auto">
+                                <h3>TransJakarta Blok M - PGC</h3>
+                                <p>Transjakarta yang berjalur dari halte Blok M hingga halte terakhir PGC</p>
+                            </div>
+                            <v-rating
+
+                                size="30"
+                                v-model="rating"
+                                clearable
+                                ></v-rating>
                         </div>
-                        <v-rating
+                    </v-list-item>
+                    <v-divider></v-divider>
+                    
+                    <v-list-item class="cursor-pointer">
+                        <div class="d-flex">
+                            <v-avatar image="@/assets/transJakarta.jpg" size="70px" class="mr-5" />
+                            <div class="me-auto" onclick="location.href='/detailBus'">
+                                <h3>TransJawa Blok M - PGC</h3>
+                                <p>TransJawa yang berjalur dari halte Blok M hingga halte terakhir PGC</p>
+                            </div>
+                            <v-rating
 
-                            size="30"
-                            v-model="rating"
-                            clearable
-                            ></v-rating>
-                    </div>
-                </v-list-item>
-                <v-divider></v-divider>
-
-                <v-list-item class="cursor-pointer">
-                    <div class="d-flex">
-                        <v-avatar image="@/assets/transJakarta.jpg" size="70px" class="mr-5" />
-                        <div class="me-auto" onclick="location.href='/detailBus'">
-                            <h3>TransJawa Blok M - PGC</h3>
-                            <p>TransJawa yang berjalur dari halte Blok M hingga halte terakhir PGC</p>
+                                size="30"
+                                v-model="rating"
+                                clearable
+                                ></v-rating>
                         </div>
-                        <v-rating
+                    </v-list-item>
+                    <v-divider></v-divider>
 
-                            size="30"
-                            v-model="rating"
-                            clearable
-                            ></v-rating>
-                    </div>
-                </v-list-item>
-                <v-divider></v-divider>
+                    <v-list-item class="cursor-pointer">
+                        <div class="d-flex">
+                            <v-avatar image="@/assets/transJakarta.jpg" size="70px" class="mr-5" />
+                            <div class="me-auto" onclick="location.href='/detailBus'">
+                                <h3>TransJawa Blok M - PGC</h3>
+                                <p>TransJawa yang berjalur dari halte Blok M hingga halte terakhir PGC</p>
+                            </div>
+                            <v-rating
 
-                <v-list-item class="cursor-pointer">
-                    <div class="d-flex">
-                        <v-avatar image="@/assets/transJakarta.jpg" size="70px" class="mr-5" />
-                        <div class="me-auto" onclick="location.href='/detailBus'">
-                            <h3>TransJawa Blok M - PGC</h3>
-                            <p>TransJawa yang berjalur dari halte Blok M hingga halte terakhir PGC</p>
+                                size="30"
+                                v-model="rating"
+                                clearable
+                                ></v-rating>
                         </div>
-                        <v-rating
+                    </v-list-item>
+                    <v-divider></v-divider>
 
-                            size="30"
-                            v-model="rating"
-                            clearable
-                            ></v-rating>
-                    </div>
-                </v-list-item>
-                <v-divider></v-divider>
+                    <v-list-item class="cursor-pointer">
+                        <div class="d-flex">
+                            <v-avatar image="@/assets/transJakarta.jpg" size="70px" class="mr-5" />
+                            <div class="me-auto" onclick="location.href='/detailBus'">
+                                <h3>TransJawa Blok M - PGC</h3>
+                                <p>TransJawa yang berjalur dari halte Blok M hingga halte terakhir PGC</p>
+                            </div>
+                            <v-rating
 
-
-                <v-list-item class="cursor-pointer">
-                    <div class="d-flex">
-                        <v-avatar image="@/assets/transJakarta.jpg" size="70px" class="mr-5" />
-                        <div class="me-auto" onclick="location.href='/detailBus'">
-                            <h3>TransJawa Kp.Dukuh - Kp.Melayu</h3>
-                            <p>TransJawa yang berjalur dari halte Blok M hingga halte terakhir PGC</p>
+                                size="30"
+                                v-model="rating"
+                                clearable
+                                ></v-rating>
                         </div>
-                        <v-rating
+                    </v-list-item>
+                    <v-divider></v-divider>
 
-                            size="30"
-                            v-model="rating"
-                            clearable
-                            ></v-rating>
-                    </div>
-                </v-list-item>
-                <v-divider></v-divider>
 
-                <v-list-item class="cursor-pointer">
-                    <div class="d-flex">
-                        <v-avatar image="@/assets/transJakarta.jpg" size="70px" class="mr-5" />
-                        <div class="me-auto" onclick="location.href='/detailBus'">
-                            <h3>TransJawa PIK - Tj.Priok</h3>
-                            <p>TransJawa yang berjalur dari halte Blok M hingga halte terakhir PGC</p>
+                    <v-list-item class="cursor-pointer">
+                        <div class="d-flex">
+                            <v-avatar image="@/assets/transJakarta.jpg" size="70px" class="mr-5" />
+                            <div class="me-auto" onclick="location.href='/detailBus'">
+                                <h3>TransJawa Kp.Dukuh - Kp.Melayu</h3>
+                                <p>TransJawa yang berjalur dari halte Blok M hingga halte terakhir PGC</p>
+                            </div>
+                            <v-rating
+
+                                size="30"
+                                v-model="rating"
+                                clearable
+                                ></v-rating>
                         </div>
-                        <v-rating
+                    </v-list-item>
+                    <v-divider></v-divider>
 
-                            size="30"
-                            v-model="rating"
-                            clearable
-                            ></v-rating>
-                    </div>
-                </v-list-item>
-                <v-divider></v-divider>
+                    <v-list-item class="cursor-pointer">
+                        <div class="d-flex">
+                            <v-avatar image="@/assets/transJakarta.jpg" size="70px" class="mr-5" />
+                            <div class="me-auto" onclick="location.href='/detailBus'">
+                                <h3>TransJawa PIK - Tj.Priok</h3>
+                                <p>TransJawa yang berjalur dari halte Blok M hingga halte terakhir PGC</p>
+                            </div>
+                            <v-rating
 
-                <v-list-item class="cursor-pointer">
-                    <div class="d-flex">
-                        <v-avatar image="@/assets/transJakarta.jpg" size="70px" class="mr-5" />
-                        <div class="me-auto" onclick="location.href='/detailBus'">
-                            <h3>TransJawa Tj.Barat - Depok</h3>
-                            <p>TransJawa yang berjalur dari halte Blok M hingga halte terakhir PGC</p>
+                                size="30"
+                                v-model="rating"
+                                clearable
+                                ></v-rating>
                         </div>
-                        <v-rating
+                    </v-list-item>
+                    <v-divider></v-divider>
 
-                            size="30"
-                            v-model="rating"
-                            clearable
-                            ></v-rating>
-                    </div>
-                </v-list-item>
-                <v-divider></v-divider>
+                    <v-list-item class="cursor-pointer">
+                        <div class="d-flex">
+                            <v-avatar image="@/assets/transJakarta.jpg" size="70px" class="mr-5" />
+                            <div class="me-auto" onclick="location.href='/detailBus'">
+                                <h3>TransJawa Tj.Barat - Depok</h3>
+                                <p>TransJawa yang berjalur dari halte Blok M hingga halte terakhir PGC</p>
+                            </div>
+                            <v-rating
 
-                <v-list-item class="cursor-pointer">
-                    <div class="d-flex">
-                        <v-avatar image="@/assets/transJakarta.jpg" size="70px" class="mr-5" />
-                        <div class="me-auto" onclick="location.href='/detailBus'">
-                            <h3>TransJawa Depok - Ciawi</h3>
-                            <p>TransJawa yang berjalur dari halte Blok M hingga halte terakhir PGC</p>
+                                size="30"
+                                v-model="rating"
+                                clearable
+                                ></v-rating>
                         </div>
-                        <v-rating
+                    </v-list-item>
+                    <v-divider></v-divider>
 
-                            size="30"
-                            v-model="rating"
-                            clearable
-                            ></v-rating>
-                    </div>
-                </v-list-item>
-                <v-divider></v-divider>
+                    <v-list-item class="cursor-pointer">
+                        <div class="d-flex">
+                            <v-avatar image="@/assets/transJakarta.jpg" size="70px" class="mr-5" />
+                            <div class="me-auto" onclick="location.href='/detailBus'">
+                                <h3>TransJawa Depok - Ciawi</h3>
+                                <p>TransJawa yang berjalur dari halte Blok M hingga halte terakhir PGC</p>
+                            </div>
+                            <v-rating
 
-                <v-list-item class="cursor-pointer">
-                    <div class="d-flex">
-                        <v-avatar image="@/assets/transJakarta.jpg" size="70px" class="mr-5" />
-                        <div class="me-auto" onclick="location.href='/detailBus'">
-                            <h3>TransJawa Bogor - Sukabumi</h3>
-                            <p>TransJawa yang berjalur dari halte Blok M hingga halte terakhir PGC</p>
+                                size="30"
+                                v-model="rating"
+                                clearable
+                                ></v-rating>
                         </div>
-                        <v-rating
+                    </v-list-item>
+                    <v-divider></v-divider>
 
-                            size="30"
-                            v-model="rating"
-                            clearable
-                            ></v-rating>
-                    </div>
-                </v-list-item>
-                <v-divider></v-divider>
+                    <v-list-item class="cursor-pointer">
+                        <div class="d-flex">
+                            <v-avatar image="@/assets/transJakarta.jpg" size="70px" class="mr-5" />
+                            <div class="me-auto" onclick="location.href='/detailBus'">
+                                <h3>TransJawa Bogor - Sukabumi</h3>
+                                <p>TransJawa yang berjalur dari halte Blok M hingga halte terakhir PGC</p>
+                            </div>
+                            <v-rating
 
-                <v-list-item class="cursor-pointer">
-                    <div class="d-flex">
-                        <v-avatar image="@/assets/transJakarta.jpg" size="70px" class="mr-5" />
-                        <div class="me-auto" onclick="location.href='/detailBus'">
-                            <h3>TransJawa Bogor-Citayem</h3>
-                            <p>TransJawa yang berjalur dari halte Blok M hingga halte terakhir PGC</p>
+                                size="30"
+                                v-model="rating"
+                                clearable
+                                ></v-rating>
                         </div>
-                        <v-rating
+                    </v-list-item>
+                    <v-divider></v-divider>
 
-                            size="30"
-                            v-model="rating"
-                            clearable
-                            ></v-rating>
-                    </div>
-                </v-list-item>
-                <v-divider></v-divider>
+                    <v-list-item class="cursor-pointer">
+                        <div class="d-flex">
+                            <v-avatar image="@/assets/transJakarta.jpg" size="70px" class="mr-5" />
+                            <div class="me-auto" onclick="location.href='/detailBus'">
+                                <h3>TransJawa Bogor-Citayem</h3>
+                                <p>TransJawa yang berjalur dari halte Blok M hingga halte terakhir PGC</p>
+                            </div>
+                            <v-rating
 
-
-                <v-list-item class="cursor-pointer">
-                    <div class="d-flex">
-                        <v-avatar image="@/assets/transJakarta.jpg" size="70px" class="mr-5" />
-                        <div class="me-auto" onclick="location.href='/detailBus'">
-                            <h3>TransJawa Bogor - Kp. Rambutan</h3>
-                            <p>TransJawa yang berjalur dari halte Blok M hingga halte terakhir PGC</p>
+                                size="30"
+                                v-model="rating"
+                                clearable
+                                ></v-rating>
                         </div>
-                        <v-rating
+                    </v-list-item>
+                    <v-divider></v-divider>
 
-                            size="30"
-                            v-model="rating"
-                            clearable
-                            ></v-rating>
-                    </div>
-                </v-list-item>
-                <v-divider></v-divider>
 
-                <v-list-item class="cursor-pointer">
-                    <div class="d-flex">
-                        <v-avatar image="@/assets/transJakarta.jpg" size="70px" class="mr-5" />
-                        <div class="me-auto" onclick="location.href='/detailBus'">
-                            <h3>TransJawa Kp.Inggris - Malang</h3>
-                            <p>TransJawa yang berjalur dari halte Blok M hingga halte terakhir PGC</p>
+                    <v-list-item class="cursor-pointer">
+                        <div class="d-flex">
+                            <v-avatar image="@/assets/transJakarta.jpg" size="70px" class="mr-5" />
+                            <div class="me-auto" onclick="location.href='/detailBus'">
+                                <h3>TransJawa Bogor - Kp. Rambutan</h3>
+                                <p>TransJawa yang berjalur dari halte Blok M hingga halte terakhir PGC</p>
+                            </div>
+                            <v-rating
+
+                                size="30"
+                                v-model="rating"
+                                clearable
+                                ></v-rating>
                         </div>
-                        <v-rating
-                            size="30"
-                            v-model="rating"
-                            clearable
-                            ></v-rating>
-                    </div>
-                </v-list-item>
-                <v-divider></v-divider>
-            </v-list>
-        </section>
-        </v-contaienr>
+                    </v-list-item>
+                    <v-divider></v-divider>
+
+                    <v-list-item class="cursor-pointer">
+                        <div class="d-flex">
+                            <v-avatar image="@/assets/transJakarta.jpg" size="70px" class="mr-5" />
+                            <div class="me-auto" onclick="location.href='/detailBus'">
+                                <h3>TransJawa Kp.Inggris - Malang</h3>
+                                <p>TransJawa yang berjalur dari halte Blok M hingga halte terakhir PGC</p>
+                            </div>
+                            <v-rating
+                                size="30"
+                                v-model="rating"
+                                clearable
+                                ></v-rating>
+                        </div>
+                    </v-list-item>
+                    <v-divider></v-divider>
+                </v-list>
+            </section>
+        </v-container>
     </v-main>
 </template>
 <script >

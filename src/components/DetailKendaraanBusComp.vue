@@ -283,7 +283,7 @@
 
 <script>
  export default {
-        name: 'DetailKendaraanBusComp',
+        name: 'DetailKendaraanAngkotComp',
         data: () => ({
             model: null,
             

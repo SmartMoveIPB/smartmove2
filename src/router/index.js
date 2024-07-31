@@ -16,7 +16,7 @@
 import { createRouter, createWebHistory } from "vue-router";  
 import LandingTrainPage from "@/pages/LandingTrainPage.vue";
 import NewsPage from "@/pages/NewsPage.vue";
-import LandingBusPage from "@/pages/LandingAngkotPage.vue";
+import LandingBusPage from "@/pages/LandingBusPage.vue";
 import LoginPages from "@/pages/LoginPages.vue";
 import RegisterPages from "@/pages/RegisterPages.vue";
 import ProfilePage from "@/pages/ProfilePage.vue";
@@ -34,7 +34,6 @@ const router = createRouter({
   history: createWebHistory(process.env.BASE_URL),
   routes : [
     {path: '/', component: LandingBusPage,},
-    {path : '/train', component : LandingTrainPage},
     {path : '/login', component : LoginPages},
     {path: '/register', component : RegisterPages},
     {path: "/news", component: NewsPage},
@@ -44,7 +43,8 @@ const router = createRouter({
     {path: '/Detailkendaraan', component: DetailKendaraanBusPage},
     {path: '/komentar', component: KomentarPage},
     {path: '/laporkan', component: LaporkanPage}
-  
+    {path: '/LandingPageAngkot', component: LandingAngkotPage}
+    {path: '/LandingPageKRL', component: LandingTrainPage}
   ]
 });
 
