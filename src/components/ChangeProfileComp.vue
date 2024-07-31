@@ -76,7 +76,7 @@
                     <v-btn
                     @click="v$.$validate" @dbclick="clear" class="button-change text-white my-4 w-100 rounded-pill"
                     >
-                        Change your password
+                        Change Save
                     </v-btn>
                     
                 </form>

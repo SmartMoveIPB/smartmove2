@@ -23,10 +23,11 @@ import ProfilePage from "@/pages/ProfilePage.vue";
 import ChangeProfilePage from "@/pages/ChangeProfilePage.vue";
 import DetailBusPage from "@/pages/DetailBusPage.vue";
 import DetailKendaraanBusPage from "@/pages/DetailKendaraanBusPage.vue";
-import DetailKendaraanKeretaPage from "@/pages/DetailKendaraanKeretaPage.vue";
+import DetailKendaraanKrlPage from "@/pages/DetailKendaraanKrlPage.vue";
 import DetailKendaraanAngkotPage from "@/pages/DetailKendaraanKeretaPage.vue";
 import KomentarPage from "@/pages/KomentarPage.vue";
 import LaporkanPage from "@/pages/LaporkanPage.vue";
+import DetailKrlPage from "@/pages/DetailKrlPage.vue";
 
 const router = createRouter({
   history: createWebHistory(process.env.BASE_URL),
@@ -39,7 +40,9 @@ const router = createRouter({
     {path: '/profile', component: ProfilePage},
     {path: '/changeProfile', component: ChangeProfilePage},
     {path: '/detailBus', component: DetailBusPage},
+    {path: '/detailKrl', component: DetailKrlPage},
     {path: '/DetailkendaraanBus', component: DetailKendaraanBusPage},
+    {path: '/DetailKendaraanKrl', component: DetailKendaraanKrlPage},
     {path: '/komentar', component: KomentarPage},
     {path: '/laporkan', component: LaporkanPage}
   ]

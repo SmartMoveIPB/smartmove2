@@ -47,14 +47,11 @@
     </v-sheet>
 
     <div id="bus"  class="d-flex mx-auto rounded-pill my-10 " style="width: 250px; height: 50px; background-color: white;">
-        <button  onclick="location.href='/'" style="width: 125px; height: 50px; background-color: #E8DEF8;" class="rounded-ts-pill pa-3 rounded-bs-pill border">
+        <button  onclick="location.href='/DetailkendaraanBus'" style="width: 125px; height: 50px; background-color: #E8DEF8;" class="rounded-ts-pill pa-3 rounded-bs-pill border">
             <h4  class="text-black text-center ">Bus</h4>
         </button>  
-        <button  onclick="location.href='/'" style="width: 125px; height: 50px; background-color: white;" class="pa-3  border">
+        <button id="train" onclick="location.href='/DetailKendaraanKrl'" style="width: 125px; height: 50px; background-color: white;" class="rounded-te-pill pa-3 rounded-be-pill border">
             <h4  class="text-black text-center ">Kereta</h4>
-        </button>  
-        <button id="train" onclick="location.href='/train'" style="width: 125px; height: 50px; background-color: white;" class="rounded-te-pill pa-3 rounded-be-pill border">
-            <h4  class="text-black text-center ">Angkot</h4>
         </button>
     </div>
 

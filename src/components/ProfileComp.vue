@@ -15,6 +15,38 @@
                     </button>
                 </div>
                 
+                <div class="pa-4 text-center">
+                    <h3>
+                        Email
+                    </h3>
+                    <p>
+                        IrfanGaming@gmail.com
+                    </p>
+                </div>
+                <div class="pa-4 text-center">
+                    <h3>
+                        Nama
+                    </h3>
+                    <p>
+                        MAULANA IRFAN
+                    </p>
+                </div>
+                <div class="pa-4 text-center">
+                    <h3>
+                        Password
+                    </h3>
+                    <p>
+                        ***********
+                    </p>
+                </div>
+                <div class="pa-4 text-center">
+                    <h3>
+                        Role
+                    </h3>
+                    <p>
+                        CHIEF TECH OFFICER 
+                    </p>
+                </div>
             </div>
 
             <!-- Form to Edit Function -->
