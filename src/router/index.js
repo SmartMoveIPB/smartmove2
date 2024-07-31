@@ -16,7 +16,7 @@
 import { createRouter, createWebHistory } from "vue-router";  
 import LandingTrainPage from "@/pages/LandingTrainPage.vue";
 import NewsPage from "@/pages/NewsPage.vue";
-import LandingBusPage from "@/pages/LandingBusPage.vue";
+import LandingBusPage from "@/pages/LandingAngkotPage.vue";
 import LoginPages from "@/pages/LoginPages.vue";
 import RegisterPages from "@/pages/RegisterPages.vue";
 import ProfilePage from "@/pages/ProfilePage.vue";
@@ -27,6 +27,8 @@ import DetailKendaraanKeretaPage from "@/pages/DetailKendaraanKeretaPage.vue";
 import DetailKendaraanAngkotPage from "@/pages/DetailKendaraanKeretaPage.vue";
 import KomentarPage from "@/pages/KomentarPage.vue";
 import LaporkanPage from "@/pages/LaporkanPage.vue";
+import Landing
+
 
 const router = createRouter({
   history: createWebHistory(process.env.BASE_URL),
@@ -39,7 +41,7 @@ const router = createRouter({
     {path: '/profile', component: ProfilePage},
     {path: '/changeProfile', component: ChangeProfilePage},
     {path: '/detailBus', component: DetailBusPage},
-    {path: '/DetailkendaraanBus', component: DetailKendaraanBusPage},
+    {path: '/Detailkendaraan', component: DetailKendaraanBusPage},
     {path: '/komentar', component: KomentarPage},
     {path: '/laporkan', component: LaporkanPage}
   ]
