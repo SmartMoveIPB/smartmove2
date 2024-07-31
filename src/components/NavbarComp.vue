@@ -2,7 +2,7 @@
 
   <v-card>
     <v-app-bar
-        style="background-color: #7c83fd;"
+        style="background-color: #7e52d5;"
 
         prominent
       >
@@ -16,7 +16,7 @@
       </v-app-bar>
 
       <v-navigation-drawer
-        style="background: rgb(81,65,124); background: linear-gradient(90deg, rgba(81,65,124,1) 0%, rgba(92,73,140,1) 35%, rgba(112,89,171,1) 69%, rgba(148,118,226,1) 100%); color :white; width: 120px;"
+        style="background: rgb(81,65,124); background: linear-gradient(180deg, rgba(81,65,124,1) 0%, rgba(92,73,140,1) 35%, rgba(112,89,171,1) 69%, rgba(148,118,226,1) 100%);; color :white; width: 120px;"
         v-model="drawer"
       
         :location="$vuetify.display.mobile ? 'left' : undefined"
@@ -68,16 +68,9 @@
 </template> 
 
 <script>
-  import logo from '@/assets/logo-Smart-move.png'
     // import BusComp from '@/components/BusComp.vue';
     export default{
         name : 'NavbarComp',
-
-        // data () {
-        //     return {
-        //         drawer: null,
-        //     }
-        // }
         data: () => ({
             drawer: false,
             group: null,
