@@ -14,33 +14,10 @@
                     <h2 class="my-4">Tulis Komentar</h2>
 
             <!-- Drop Down -->
-                    <v-menu
-                        transition="slide-y-transition"
-                        >
-                        <template v-slot:activator="{ props }">
-                            <v-btn
-                            style="background-color: #7e52d5; color: white;"
-                            v-bind="props"
-                            >
-                            Kategori Komentar
-                            </v-btn>
-                        </template>
-                        <v-list>
-                            <v-list-item>
-                                <button>Kenyamanan</button>
-                            </v-list-item>
-                            <v-list-item>
-                                <button>Kebersihan</button>
-                            </v-list-item>
-                            <v-list-item>
-                                <button>Keamanan</button>
-                            </v-list-item>
-                            <v-list-item>
-                                <button>Profesionalitas</button>
-                            </v-list-item>
-
-                        </v-list>
-                    </v-menu>       
+            <v-select
+            label="Kategori"
+            :items="['Kenyamanan', 'Keamanan', 'Kebersihan', 'Profesionalitas']"
+            ></v-select>    
                     <v-textarea label="Jelaskan Lebih Detail" class="my-4"></v-textarea>
                     <div class="ratings d-flex">
                         <h3 class="font-weight-regular mr-2">Beri Rating</h3>

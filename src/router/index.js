@@ -22,7 +22,9 @@ import RegisterPages from "@/pages/RegisterPages.vue";
 import ProfilePage from "@/pages/ProfilePage.vue";
 import ChangeProfilePage from "@/pages/ChangeProfilePage.vue";
 import DetailBusPage from "@/pages/DetailBusPage.vue";
-import DetailKendaraanPage from "@/pages/DetailKendaraanPage.vue";
+import DetailKendaraanBusPage from "@/pages/DetailKendaraanBusPage.vue";
+import DetailKendaraanKeretaPage from "@/pages/DetailKendaraanKeretaPage.vue";
+import DetailKendaraanAngkotPage from "@/pages/DetailKendaraanKeretaPage.vue";
 import KomentarPage from "@/pages/KomentarPage.vue";
 import LaporkanPage from "@/pages/LaporkanPage.vue";
 
@@ -37,7 +39,7 @@ const router = createRouter({
     {path: '/profile', component: ProfilePage},
     {path: '/changeProfile', component: ChangeProfilePage},
     {path: '/detailBus', component: DetailBusPage},
-    {path: '/Detailkendaraan', component: DetailKendaraanPage},
+    {path: '/DetailkendaraanBus', component: DetailKendaraanBusPage},
     {path: '/komentar', component: KomentarPage},
     {path: '/laporkan', component: LaporkanPage}
   ]
