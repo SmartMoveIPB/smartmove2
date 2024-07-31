@@ -112,7 +112,7 @@
 
                 <v-list-item class="cursor-pointer">
                     <div class="d-flex">
-                        <v-avatar image="@/assets/argo-dwipangga.png" size="70px" class="mr-5" />
+                        <v-avatar image="@/assets/Tabrakan.jpg" size="70px" class="mr-5" />
                         <div class="me-auto" onclick="location.href='/detailBus'">
                             <h3>KRL Bok M - PGC</h3>
                             <p>TransJawa yang berjalur dari halte Blok M hingga halte terakhir PGC</p>
@@ -130,7 +130,7 @@
 
                 <v-list-item class="cursor-pointer">
                     <div class="d-flex">
-                        <v-avatar image="@/assets/argo-dwipangga.png" size="70px" class="mr-5" />
+                        <v-avatar image="@/assets/Tabrakan.jpg" size="70px" class="mr-5" />
                         <div class="me-auto" onclick="location.href='/detailBus'">
                             <h3>KRL.Dukuh - Kp.Melayu</h3>
                             <p>TransJawa yang berjalur dari halte Blok M hingga halte terakhir PGC</p>
@@ -181,7 +181,7 @@
 
                 <v-list-item class="cursor-pointer">
                     <div class="d-flex">
-                        <v-avatar image="@/assets/argo-dwipangga.png" size="70px" class="mr-5" />
+                        <v-avatar image="@/assets/Tabrakan.jpg" size="70px" class="mr-5" />
                         <div class="me-auto" onclick="location.href='/detailBus'">
                             <h3>KRLpok - Ciawi</h3>
                             <p>TransJawa yang berjalur dari halte Blok M hingga halte terakhir PGC</p>
@@ -198,7 +198,7 @@
 
                 <v-list-item class="cursor-pointer">
                     <div class="d-flex">
-                        <v-avatar image="@/assets/argo-dwipangga.png" size="70px" class="mr-5" />
+                        <v-avatar image="@/assets/Tabrakan.jpg" size="70px" class="mr-5" />
                         <div class="me-auto" onclick="location.href='/detailBus'">
                             <h3>KRLgor - Sukabumi</h3>
                             <p>TransJawa yang berjalur dari halte Blok M hingga halte terakhir PGC</p>
@@ -215,7 +215,7 @@
 
                 <v-list-item class="cursor-pointer">
                     <div class="d-flex">
-                        <v-avatar image="@/assets/argo-dwipangga.png" size="70px" class="mr-5" />
+                        <v-avatar image="@/assets/Tabrakan.jpg" size="70px" class="mr-5" />
                         <div class="me-auto" onclick="location.href='/detailBus'">
                             <h3>KRL Bogor-Citayem</h3>
                             <p>TransJawa yang berjalur dari halte Blok M hingga halte terakhir PGC</p>
