@@ -15,11 +15,227 @@
             </div>
             
             <!-- Isi bus -->
-            <section class="border">
-                <v-list :items="items" class="pa-2" lines="three" items-props>
-                </v-list>
+            <section class="pa-10" style="width: 100%; min-height: 100vh;">
+            <div class="w-auto  pa-5 d-flex justify-space-between" style="height: 80px;">
+                <div class="d-flex ml-6">
+                    <h3>Detail Kendaraan</h3   >
+                    <v-icon icon="mdi-arrow-right mx-3" style="margin-top: 2px;" ></v-icon>
+                </div>
+               
+                <div class="show-all mr-6">
+                    <button>
+                        <h3>Show All</h3   >
+                    </button>
+                </div>
+            </div>
+
+            <v-list class="List pa-2"  lines="three" items-props >
+                <v-list-item class="cursor-pointer" onclick="location.href='/detailBus'">
+                    <div class="d-flex">
+                        <v-avatar image="@/assets/argo-dwipangga.png" size="70px" class="mr-5" />
+                        <div class="me-auto">
+                            <h3>KRL Jakarta Blok M - PGC</h3>
+                            <p>KRL jakarta yang berjalur dari halte Blok M hingga halte terakhir PGC</p>
+                        </div>
+                        <v-rating
+
+                            size="30"
+                            v-model="rating"
+                            clearable
+                            ></v-rating>
+                    </div>
+                </v-list-item>
+                <v-divider></v-divider>
                 
-            </section>
+                <v-list-item class="cursor-pointer">
+                    <div class="d-flex">
+                        <v-avatar image="@/assets/argo-dwipangga.png" size="70px" class="mr-5" />
+                        <div class="me-auto" onclick="location.href='/detailBus'">
+                            <h3>KRL Jawa Blok M - PGC</h3>
+                            <p>KRL Jawa yang berjalur dari halte Blok M hingga halte terakhir PGC</p>
+                        </div>
+                        <v-rating
+
+                            size="30"
+                            v-model="rating"
+                            clearable
+                            ></v-rating>
+                    </div>
+                </v-list-item>
+                <v-divider></v-divider>
+
+                <v-list-item class="cursor-pointer">
+                    <div class="d-flex">
+                        <v-avatar image="@/assets/argo-dwipangga.png" size="70px" class="mr-5" />
+                        <div class="me-auto" onclick="location.href='/detailBus'">
+                            <h3>KRL Jawa Blok M - PGC</h3>
+                            <p>KRL Jawa yang berjalur dari halte Blok M hingga halte terakhir PGC</p>
+                        </div>
+                        <v-rating
+
+                            size="30"
+                            v-model="rating"
+                            clearable
+                            ></v-rating>
+                    </div>
+                </v-list-item>
+                <v-divider></v-divider>
+
+                <v-list-item class="cursor-pointer">
+                    <div class="d-flex">
+                        <v-avatar image="@/assets/argo-dwipangga.png" size="70px" class="mr-5" />
+                        <div class="me-auto" onclick="location.href='/detailBus'">
+                            <h3>KRL Jawa Blok M - PGC</h3>
+                            <p>KRL Jawa yang berjalur dari halte Blok M hingga halte terakhir PGC</p>
+                        </div>
+                        <v-rating
+
+                            size="30"
+                            v-model="rating"
+                            clearable
+                            ></v-rating>
+                    </div>
+                </v-list-item>
+                <v-divider></v-divider>
+
+
+                <v-list-item class="cursor-pointer">
+                    <div class="d-flex">
+                        <v-avatar image="@/assets/argo-dwipangga.png" size="70px" class="mr-5" />
+                        <div class="me-auto" onclick="location.href='/detailBus'">
+                            <h3>KRL Jawa Kp.Dukuh - Kp.Melayu</h3>
+                            <p>KRL Jawa yang berjalur dari halte Blok M hingga halte terakhir PGC</p>
+                        </div>
+                        <v-rating
+
+                            size="30"
+                            v-model="rating"
+                            clearable
+                            ></v-rating>
+                    </div>
+                </v-list-item>
+                <v-divider></v-divider>
+
+                <v-list-item class="cursor-pointer">
+                    <div class="d-flex">
+                        <v-avatar image="@/assets/argo-dwipangga.png" size="70px" class="mr-5" />
+                        <div class="me-auto" onclick="location.href='/detailBus'">
+                            <h3>KRL Jawa PIK - Tj.Priok</h3>
+                            <p>KRL Jawa yang berjalur dari halte Blok M hingga halte terakhir PGC</p>
+                        </div>
+                        <v-rating
+
+                            size="30"
+                            v-model="rating"
+                            clearable
+                            ></v-rating>
+                    </div>
+                </v-list-item>
+                <v-divider></v-divider>
+
+                <v-list-item class="cursor-pointer">
+                    <div class="d-flex">
+                        <v-avatar image="@/assets/argo-dwipangga.png" size="70px" class="mr-5" />
+                        <div class="me-auto" onclick="location.href='/detailBus'">
+                            <h3>KRL Jawa Tj.Barat - Depok</h3>
+                            <p>KRL Jawa yang berjalur dari halte Blok M hingga halte terakhir PGC</p>
+                        </div>
+                        <v-rating
+
+                            size="30"
+                            v-model="rating"
+                            clearable
+                            ></v-rating>
+                    </div>
+                </v-list-item>
+                <v-divider></v-divider>
+
+                <v-list-item class="cursor-pointer">
+                    <div class="d-flex">
+                        <v-avatar image="@/assets/argo-dwipangga.png" size="70px" class="mr-5" />
+                        <div class="me-auto" onclick="location.href='/detailBus'">
+                            <h3>KRL Jawa Depok - Ciawi</h3>
+                            <p>KRL Jawa yang berjalur dari halte Blok M hingga halte terakhir PGC</p>
+                        </div>
+                        <v-rating
+
+                            size="30"
+                            v-model="rating"
+                            clearable
+                            ></v-rating>
+                    </div>
+                </v-list-item>
+                <v-divider></v-divider>
+
+                <v-list-item class="cursor-pointer">
+                    <div class="d-flex">
+                        <v-avatar image="@/assets/argo-dwipangga.png" size="70px" class="mr-5" />
+                        <div class="me-auto" onclick="location.href='/detailBus'">
+                            <h3>KRL Jawa Bogor - Sukabumi</h3>
+                            <p>KRL Jawa yang berjalur dari halte Blok M hingga halte terakhir PGC</p>
+                        </div>
+                        <v-rating
+
+                            size="30"
+                            v-model="rating"
+                            clearable
+                            ></v-rating>
+                    </div>
+                </v-list-item>
+                <v-divider></v-divider>
+
+                <v-list-item class="cursor-pointer">
+                    <div class="d-flex">
+                        <v-avatar image="@/assets/argo-dwipangga.png" size="70px" class="mr-5" />
+                        <div class="me-auto" onclick="location.href='/detailBus'">
+                            <h3>KRL Jawa Bogor-Citayem</h3>
+                            <p>KRL Jawa yang berjalur dari halte Blok M hingga halte terakhir PGC</p>
+                        </div>
+                        <v-rating
+
+                            size="30"
+                            v-model="rating"
+                            clearable
+                            ></v-rating>
+                    </div>
+                </v-list-item>
+                <v-divider></v-divider>
+
+
+                <v-list-item class="cursor-pointer">
+                    <div class="d-flex">
+                        <v-avatar image="@/assets/argo-dwipangga.png" size="70px" class="mr-5" />
+                        <div class="me-auto" onclick="location.href='/detailBus'">
+                            <h3>KRL Jawa Bogor - Kp. Rambutan</h3>
+                            <p>KRL Jawa yang berjalur dari halte Blok M hingga halte terakhir PGC</p>
+                        </div>
+                        <v-rating
+
+                            size="30"
+                            v-model="rating"
+                            clearable
+                            ></v-rating>
+                    </div>
+                </v-list-item>
+                <v-divider></v-divider>
+
+                <v-list-item class="cursor-pointer">
+                    <div class="d-flex">
+                        <v-avatar image="@/assets/argo-dwipangga.png" size="70px" class="mr-5" />
+                        <div class="me-auto" onclick="location.href='/detailBus'">
+                            <h3>KRL Jawa Kp.Inggris - Malang</h3>
+                            <p>KRL Jawa yang berjalur dari halte Blok M hingga halte terakhir PGC</p>
+                        </div>
+                        <v-rating
+                            size="30"
+                            v-model="rating"
+                            clearable
+                            ></v-rating>
+                    </div>
+                </v-list-item>
+                <v-divider></v-divider>
+            </v-list>
+        </section>
         </v-contaienr>
     </v-main>
 </template>
@@ -104,7 +320,8 @@
                             appendIcon : 'mdi-heart-outline'
                         }
                     }
-                ]
+                ],
+                rating : 3
                 // items: [
                 //     {
                 //         prependAvatar: '@/assets/tiket-bus-sinar-jaya.jpg',

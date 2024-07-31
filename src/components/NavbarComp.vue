@@ -30,7 +30,7 @@
               <img src="@/assets/logo-Smart-move.png" style="width: 70px;" alt="logo" onclick="location.href='/'">
             </div>
             
-            <button class=" button-item " onclick="location.href='/detailKendaraan'" >
+            <button class=" button-item " onclick="location.href='/detailKendaraanBus'" >
               <v-icon icon="mdi-bus" style="font-size: 25px;"></v-icon>
               
               <h3 class="font-weight-regular" style="font-size: 15px;">Detail<br>Transportasi</h3>
