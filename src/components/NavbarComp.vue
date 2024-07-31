@@ -19,7 +19,7 @@
         style="background: rgb(81,65,124); background: linear-gradient(90deg, rgba(81,65,124,1) 0%, rgba(92,73,140,1) 35%, rgba(112,89,171,1) 69%, rgba(148,118,226,1) 100%); color :white; width: 200px;"
         v-model="drawer"
       
-        :location="$vuetify.display.mobile ? 'bottom' : undefined"
+        :location="$vuetify.display.mobile ? 'left' : undefined"
         temporary
       >
         <v-list
@@ -31,7 +31,7 @@
             </div>
             
             <button class=" button-item " >
-              <v-icon icon="mdi-bus"></v-icon>
+              <v-icon icon="mdi-bus" onclick="location.href='detailBus'"></v-icon>
               
               <h3 class="font-weight-regular">Detail Transport</h3>
             </button>
