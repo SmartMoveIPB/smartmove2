@@ -28,6 +28,7 @@ import DetailKendaraanAngkotPage from "@/pages/DetailKendaraanKeretaPage.vue";
 import KomentarPage from "@/pages/KomentarPage.vue";
 import LaporkanPage from "@/pages/LaporkanPage.vue";
 import DetailKrlPage from "@/pages/DetailKrlPage.vue";
+import rutePage from "@/pages/rutePage.vue";
 
 const router = createRouter({
   history: createWebHistory(process.env.BASE_URL),
@@ -44,7 +45,8 @@ const router = createRouter({
     {path: '/DetailkendaraanBus', component: DetailKendaraanBusPage},
     {path: '/DetailKendaraanKrl', component: DetailKendaraanKrlPage},
     {path: '/komentar', component: KomentarPage},
-    {path: '/laporkan', component: LaporkanPage}
+    {path: '/laporkan', component: LaporkanPage},
+    {path: '/rute', component: rutePage},
   ]
 });
 

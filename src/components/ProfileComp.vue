@@ -17,7 +17,7 @@
                 
                 <div class="pa-4 text-center">
                     <h3>
-                        Email
+                        EMAIL
                     </h3>
                     <p>
                         IrfanGaming@gmail.com
@@ -25,7 +25,7 @@
                 </div>
                 <div class="pa-4 text-center">
                     <h3>
-                        Nama
+                        NAMA
                     </h3>
                     <p>
                         MAULANA IRFAN
@@ -33,7 +33,7 @@
                 </div>
                 <div class="pa-4 text-center">
                     <h3>
-                        Password
+                        PASSWORD
                     </h3>
                     <p>
                         ***********
@@ -41,7 +41,7 @@
                 </div>
                 <div class="pa-4 text-center">
                     <h3>
-                        Role
+                        ROLE
                     </h3>
                     <p>
                         CHIEF TECH OFFICER 

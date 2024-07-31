@@ -12,7 +12,9 @@
 
         <v-btn class="rounded-pill shadow-lg text-white" style="width: 100px; background-color: #3735c0;" onclick="location.href='/login'"><h3>Login</h3></v-btn>
 
-        <v-btn icon="mdi-dots-vertical" class="mx-5 text-white" variant="text"></v-btn>
+        <v-avatar  image='https://th.bing.com/th/id/OIP.7hXuopvF2x82nyw_RvcA1QHaHa?w=187&h=187&c=7&r=0&o=5&dpr=1.3&pid=1.7' class="mx-5 cursor-pointer" onclick="location.href='/profile'" size="40"></v-avatar>
+
+        <v-btn icon="mdi-dots-vertical" class="mr-5 text-white" variant="text"></v-btn>
       </v-app-bar>
 
       <v-navigation-drawer
@@ -39,7 +41,7 @@
             <button class=" button-item my-6" >
               <v-icon icon="mdi-newspaper" style="font-size: 25px;"></v-icon>
               
-              <h3 class="font-weight-regular" onclick="location.href='/news'" style="font-size: 15px;">Berita</h3>
+              <h3 class="font-weight-regular" onclick="location.href='/News'" style="font-size: 15px;">Berita</h3>
             </button>
             
             <!-- <button class=" button-item " >
@@ -51,7 +53,7 @@
             <button class=" button-item mb-6 " >
               <v-icon icon="mdi-google-maps" style="font-size: 30px;" ></v-icon>
               
-              <h3 class="font-weight-regular" style="font-size: 15px;">Rute</h3>
+              <h3 class="font-weight-regular" onclick="location.href='/rute'" style="font-size: 15px;">Rute</h3>
             </button>
             
             <button class=" button-item" onclick="location.href='/profile'">
@@ -59,7 +61,10 @@
               
               <h3 class="font-weight-regular" style="font-size: 15px;">Profil</h3>
             </button>
-          
+            
+            <div class="mt-16" >
+              <v-btn>Logout</v-btn>
+            </div>
           </v-list-item>
         </v-list>
       </v-navigation-drawer>
