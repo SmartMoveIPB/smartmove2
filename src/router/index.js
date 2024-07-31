@@ -27,7 +27,7 @@ import DetailKendaraanKeretaPage from "@/pages/DetailKendaraanKeretaPage.vue";
 import DetailKendaraanAngkotPage from "@/pages/DetailKendaraanKeretaPage.vue";
 import KomentarPage from "@/pages/KomentarPage.vue";
 import LaporkanPage from "@/pages/LaporkanPage.vue";
-import Landing
+import LandingAngkotPage from "@/pages/LandingAngkotPage.vue";
 
 
 const router = createRouter({
@@ -44,6 +44,7 @@ const router = createRouter({
     {path: '/Detailkendaraan', component: DetailKendaraanBusPage},
     {path: '/komentar', component: KomentarPage},
     {path: '/laporkan', component: LaporkanPage}
+  
   ]
 });
 
